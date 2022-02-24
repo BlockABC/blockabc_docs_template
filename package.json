@@ -1,0 +1,22 @@
+{
+  "name": "blockabc_docs_template",
+  "version": "0.0.1",
+  "description": "blockabc_docs_template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "keywords": [
+    "web3",
+    "blockchain"
+  ],
+  "author": "JeffJing",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.35",
+    "vuepress-plugin-clean-urls": "^1.1.2",
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.35",
+    "@vuepress/plugin-search": "^2.0.0-beta.35"
+  }
+}
