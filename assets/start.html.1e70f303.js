@@ -1,0 +1,1 @@
+import{o as e,a as t,b as o,d as a}from"./app.25f0a40a.js";import{_ as s}from"./plugin-vue_export-helper.21dcd24c.js";const c={},r={id:"a-nested-doc",tabindex:"-1"},d=o("a",{class:"header-anchor",href:"#a-nested-doc","aria-hidden":"true"},"#",-1),n=a(" A nested doc"),_=[d,n];function i(h,f){return e(),t("h1",r,_)}var p=s(c,[["render",i]]);export{p as default};
