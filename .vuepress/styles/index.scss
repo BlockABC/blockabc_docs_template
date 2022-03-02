@@ -69,6 +69,16 @@ h1 {
   padding-left: 1rem;
   background-color: $sidebarBgColor;
 
+  .sidebar-item-children .sidebar-item-children li {
+    line-height: 1;
+
+    .sidebar-item:not(.sidebar-heading) {
+      text-overflow: ellipsis;
+      white-space: pre;
+      overflow-x: hidden;
+    }
+  }
+
   // dont highlight content`s title
   // standalone sidebar-item`s children
   a+.sidebar-item-children,
@@ -99,8 +109,10 @@ h1 {
   }
 
   p.sidebar-item {
-    margin-top: 1rem;
-    font-size: 12px;
+    margin-top: 1.5rem;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
     color: rgba(136,153,168,1.00);
   }
 
